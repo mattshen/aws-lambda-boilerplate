@@ -1,0 +1,5 @@
+outputfile.txt
+dist
+build
+node_modules
+lambda.zip

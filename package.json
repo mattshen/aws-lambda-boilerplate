@@ -1,0 +1,19 @@
+{
+  "name": "aws-lambda-boilerplate",
+  "version": "0.1.0",
+  "description": "AWS Lambda Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "upload": "FUNCTION_NAME=inbox_messages FUNCTION_FILE=lambda.zip ./scripts/upload.sh",
+    "pub": "FUNCTION_NAME=inbox_messages ./scripts/publish.sh",
+    "invoke": "FUNCTION_NAME=inbox_messages ./scripts/invoke.sh"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "Boilerplate"
+  ],
+  "author": "Matt Shen <lovelywib@gmail.com>",
+  "license": "MIT"
+}
