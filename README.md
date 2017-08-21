@@ -1,2 +1,2 @@
-# aws-lambda-boilerplate
-AWS Lambda Hello World Boilerplate
+# aws-lambda-starter
+AWS Lambda Starter
