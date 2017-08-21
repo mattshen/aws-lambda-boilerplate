@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "upload": "FUNCTION_NAME=inbox_messages FUNCTION_FILE=lambda.zip ./scripts/upload.sh",
-    "pub": "FUNCTION_NAME=inbox_messages ./scripts/publish.sh",
-    "invoke": "FUNCTION_NAME=inbox_messages ./scripts/invoke.sh"
+    "upload": "./scripts/upload.js",
+    "pub": "./scripts/publish.js",
+    "invoke": "./scripts/invoke.js"
   },
   "keywords": [
     "AWS",
